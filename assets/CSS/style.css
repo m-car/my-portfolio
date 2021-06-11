@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(251, 251, 233);
+}
+h1 {
+    background-color: rgb(33, 197, 197);
+    text-align: center;
+}
+/* MILESTONES
+1 HTML DOC WITH CONTENT AND SEMANTIC ELEMENTS
+-header/nav/subtitle
+-find images , project link 
+-work section: image and working link to at least one project
+-about me section: no place holder text
+-find image for hero
+
+-
+2 MOBILE LAYOUT
+3 TABLET LAYOUT -MEDIUM
+4 DESKTOP LAYOUT - LARGE
+5 POLISH STYLING AND DEBUGGING
+6 FINAL QA TEST (TEST EVERYTHING ON THE DEPLOYED PAGE) */
