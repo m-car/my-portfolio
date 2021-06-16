@@ -29,8 +29,7 @@ a{
 }
 .work-container{
     display: block;
-    border-style: inset;
-    border-color: red;
+   
     padding: 10px;
 
     
@@ -44,7 +43,7 @@ a{
    
     text-align: left;
     background-color: aquamarine;
-    padding: px;
+    padding: 10px;
     margin:10px auto;
     
     position:relative;
@@ -60,11 +59,13 @@ a{
 }
 img{
 max-width: 95%;
-align-self: center;
+/* align-self: center; */
 padding:5px;
 }
 footer h2{
     border-bottom: 3px solid black;
+    position: relative;
+    left: 20px;
 }
 footer li{
     display:block;
@@ -83,8 +84,9 @@ footer li{
     }
     .box{
         
-        flex:0 0 50%;
-        margin:10px auto;
+        flex-wrap: wrap;
+        width: 45%;
+        
         justify-content: space-evenly;
     }
     .feature{
@@ -95,10 +97,7 @@ footer li{
     /* max-height: 200px; */
 }
 
-@media screen  and p
-    
-}
-}
+
 /* MILESTONES
 1 HTML DOC WITH CONTENT AND SEMANTIC ELEMENTS
 -header/nav/subtitle
