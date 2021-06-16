@@ -1,15 +1,19 @@
 body{
-    background-color: rgb(251, 251, 233);
+    background-color: rgb(234, 251, 246);
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1, nav {
     background-color: rgb(33, 197, 197);
     text-align: center;
-    border-color: red;
-    border-style:inset;
+    padding: 1px;
+    margin:0;
+}
+nav{
+    background-color: darkslategray;
 }
 .hero{
-    /* margin-left: auto;
-    margin-right: auto; */
+    
     background-image: url("../images/pexels-w-w-2799887.jpg");
     height: 200px;
     background-position: center;
@@ -18,34 +22,54 @@ h1, nav {
 li{
     display: inline;
     
-    
+    font-weight: bold;
+}
+a{
+    color:rgb(33, 197, 197);
 }
 .work-container{
     display: block;
     border-style: inset;
     border-color: red;
+    padding: 10px;
 
     
 }
 .work-header{
    
-    border-style: solid;
+    border-bottom: 3px solid black;
    
 }
 .box{
-    border-color: blue;
-    border-style: inset;
+   
     text-align: left;
     background-color: aquamarine;
-    padding: 10px;
+    padding: px;
+    margin:10px auto;
+    
+    position:relative;
+    
+}
+.box div{
+    background-color: rgb(99, 201, 241);
+    position: absolute;
+    top:30%;
+    left: 2px;
+    flex: 1 0 100%;
     
 }
 img{
-    height: 200px;
-    background-position: center;
+max-width: 95%;
+align-self: center;
+padding:5px;
+}
+footer h2{
+    border-bottom: 3px solid black;
 }
 footer li{
     display:block;
+    /* border-bottom: 3px solid black; */
+    text-decoration: underline;
 }
 @media screen and (min-width:768px) {
     .work-container{
@@ -59,13 +83,21 @@ footer li{
     }
     .box{
         
-        flex:0 0 45%;
+        flex:0 0 50%;
         margin:10px auto;
         justify-content: space-evenly;
     }
     .feature{
+        
         flex: 0 1 95%;
     }
+.feature img{
+    /* max-height: 200px; */
+}
+
+@media screen  and p
+    
+}
 }
 /* MILESTONES
 1 HTML DOC WITH CONTENT AND SEMANTIC ELEMENTS
