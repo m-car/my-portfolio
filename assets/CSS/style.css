@@ -1,9 +1,71 @@
 body{
     background-color: rgb(251, 251, 233);
 }
-h1 {
+h1, nav {
     background-color: rgb(33, 197, 197);
     text-align: center;
+    border-color: red;
+    border-style:inset;
+}
+.hero{
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-image: url("../images/pexels-w-w-2799887.jpg");
+    height: 200px;
+    background-position: center;
+
+}
+li{
+    display: inline;
+    
+    
+}
+.work-container{
+    display: block;
+    border-style: inset;
+    border-color: red;
+
+    
+}
+.work-header{
+   
+    border-style: solid;
+   
+}
+.box{
+    border-color: blue;
+    border-style: inset;
+    text-align: left;
+    background-color: aquamarine;
+    padding: 10px;
+    
+}
+img{
+    height: 200px;
+    background-position: center;
+}
+footer li{
+    display:block;
+}
+@media screen and (min-width:768px) {
+    .work-container{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .work-header{
+        flex:0 1 100%;
+    }
+    .box{
+        
+        flex:0 0 45%;
+        margin:10px auto;
+        justify-content: space-evenly;
+    }
+    .feature{
+        flex: 0 1 95%;
+    }
 }
 /* MILESTONES
 1 HTML DOC WITH CONTENT AND SEMANTIC ELEMENTS
