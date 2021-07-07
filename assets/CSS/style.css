@@ -1,23 +1,43 @@
+:root{
+    --darkbrown: #441a02;
+    --orange : #f18c18;
+    --white : #fff;
+    --spaceCherry: #990011ff;
+    --white1: #fcf6f5ff;
+    
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+
 body{
-    background-color: rgb(234, 251, 246);
+    background-color: var(--white1);
     font-size: large;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
-h1, nav {
-    background-color: rgb(33, 197, 197);
-    text-align: center;
+h1 {
+    font-size: 3em;
+    text-align: left;
     padding: 1px;
     margin:0;
 }
 nav{
-    background-color: darkslategray;
+    background-color: var(--white1);
+    float:right;
+    font-size : 2em;
 }
 .hero{
     
     background-image: url("../images/pexels-w-w-2799887.jpg");
-    height: 200px;
+    height: 400px;
     background-position: center;
 
+}
+#aboutMe{
+    font-size: 2em;
 }
 li{
     display: inline;
@@ -25,7 +45,10 @@ li{
     font-weight: bold;
 }
 a{
-    color:rgb(33, 197, 197);
+
+}
+h2 {
+    font-size: larger;
 }
 .work-container{
     display: block;
@@ -42,23 +65,34 @@ a{
 .box{
    
     text-align: left;
-    background-color: aquamarine;
+    border-style: solid;
     padding: 10px;
     margin:10px auto;
     
     position:relative;
     
 }
-.box div{
-    background-color: rgb(99, 201, 241);
+.workInfo{
+    position: absolute;
+    bottom: 5%;
+    left: 2px;
+    flex: 1 0 100%;
+    /* border-style: solid; */
+    background-color: var(--spaceCherry);
+    font-size: 2em;
+    
+    
+}
+/* .box div{
+   
     position: absolute;
     top:30%;
     left: 2px;
     flex: 1 0 100%;
     
-}
+} */
 img{
-max-width: 95%;
+max-width: 100%;
 /* align-self: center; */
 padding:5px;
 }
@@ -66,8 +100,10 @@ footer h2{
     border-bottom: 3px solid black;
     position: relative;
     left: 20px;
+    font-size:3em;
 }
 footer li{
+    font-size:2em;
     display:block;
     /* border-bottom: 3px solid black; */
     text-decoration: underline;
@@ -88,6 +124,9 @@ footer li{
         width: 45%;
         
         justify-content: space-evenly;
+    }
+    .workInfo{
+       
     }
     .feature{
         
